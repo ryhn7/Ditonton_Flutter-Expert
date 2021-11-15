@@ -8,7 +8,7 @@ import 'package:watchlist/watchlist.dart';
 final locator = GetIt.instance;
 
 void init() {
-  ///? START PROVIDER
+  ///? START CUBIT
 
   //! START [MOVIE_CUBIT]
   locator.registerFactory(
@@ -128,17 +128,26 @@ void init() {
   //! END[USECASE_MOVIE]
 
   //! START[USECASE_TV]
-  locator.registerLazySingleton(() => GetAiringTodayTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => GetAiringTodayTVSeries(repository: locator()));
   locator.registerLazySingleton(() => GetDetailTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetPopularTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetTopRatedTVSeries(repository: locator()));
+  locator
+      .registerLazySingleton(() => GetPopularTVSeries(repository: locator()));
+  locator
+      .registerLazySingleton(() => GetTopRatedTVSeries(repository: locator()));
   locator.registerLazySingleton(() => SearchTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetRecommendationTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetEpisodeSeasonTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetWatchListStatusTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => GetWatchlistTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => SaveWatchlistTVSeries(repository: locator()));
-  locator.registerLazySingleton(() => RemoveWatchlistTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => GetRecommendationTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => GetEpisodeSeasonTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => GetWatchListStatusTVSeries(repository: locator()));
+  locator
+      .registerLazySingleton(() => GetWatchlistTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => SaveWatchlistTVSeries(repository: locator()));
+  locator.registerLazySingleton(
+      () => RemoveWatchlistTVSeries(repository: locator()));
 
   //! END[USECASE_TV]
 
