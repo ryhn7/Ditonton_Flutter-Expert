@@ -178,7 +178,9 @@ class _DetailContentState extends State<DetailContent> {
                                       state.isAddedToWatchlist
                                           ? const Icon(Icons.check)
                                           : const Icon(Icons.add),
-                                      const Text('Watchlist'),
+                                      const Text('Watchlist',
+                                      style: TextStyle(color: Colors.white),
+                                      ),
                                     ],
                                   ),
                                 );
