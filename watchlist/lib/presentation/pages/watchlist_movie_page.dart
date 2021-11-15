@@ -42,7 +42,7 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const TabBar(
-                indicatorColor: kMikadoYellow,
+                indicatorColor: kNetflixRed,
                 tabs: [
                   Tab(child: Text('Movie')),
                   Tab(child: Text('TV Series')),

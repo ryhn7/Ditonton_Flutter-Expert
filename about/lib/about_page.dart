@@ -29,7 +29,7 @@ const AboutPage({Key? key}) : super(key: key);
               Expanded(
                 child: Container(
                   padding: const EdgeInsets.all(32.0),
-                  color: kMikadoYellow,
+                  color: kMkdYellow,
                   child: const Text(
                     'Ditonton merupakan sebuah aplikasi katalog film yang dikembangkan oleh Dicoding Indonesia sebagai contoh proyek aplikasi untuk kelas Menjadi Flutter Developer Expert.',
                     style: TextStyle(color: Colors.black87, fontSize: 16),

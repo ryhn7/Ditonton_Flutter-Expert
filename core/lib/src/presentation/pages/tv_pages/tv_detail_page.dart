@@ -199,7 +199,7 @@ class _DetailContentState extends State<DetailContent> {
                                   itemCount: 5,
                                   itemBuilder: (context, index) => const Icon(
                                     Icons.star,
-                                    color: kMikadoYellow,
+                                    color: kMkdYellow,
                                   ),
                                   itemSize: 24,
                                 ),
@@ -256,7 +256,7 @@ class _DetailContentState extends State<DetailContent> {
                                             errorWidget: (context, url, error) {
                                               return Container(
                                                 height: double.infinity,
-                                                color: kMikadoYellow,
+                                                color: kMkdYellow,
                                                 child: Center(
                                                   child: FittedBox(
                                                     child: Transform.rotate(

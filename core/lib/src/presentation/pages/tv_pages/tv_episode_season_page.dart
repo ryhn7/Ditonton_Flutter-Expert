@@ -92,7 +92,7 @@ class _TVEpisodeSeasonPageState extends State<TVEpisodeSeasonPage> {
                             width: 80.0,
                             height: 80.0,
                             decoration:
-                                const BoxDecoration(color: kMikadoYellow),
+                                const BoxDecoration(color: kNetflixRed),
                             child: const FittedBox(
                               child: Icon(Icons.error),
                             ),
@@ -131,7 +131,7 @@ class _TVEpisodeSeasonPageState extends State<TVEpisodeSeasonPage> {
                               itemCount: 5,
                               itemBuilder: (context, index) => const Icon(
                                 Icons.star,
-                                color: kMikadoYellow,
+                                color: kMkdYellow,
                               ),
                               itemSize: 24,
                             ),
@@ -156,7 +156,7 @@ class _TVEpisodeSeasonPageState extends State<TVEpisodeSeasonPage> {
                         );
                       },
                       child: const CircleAvatar(
-                        backgroundColor: kMikadoYellow,
+                        backgroundColor: kNetflixRed,
                         foregroundColor: Colors.white,
                         child: Icon(Icons.person),
                       ),
@@ -264,7 +264,7 @@ class _ShowCrew extends StatelessWidget {
                       ),
                       errorWidget: (context, url, error) => Container(
                         decoration: BoxDecoration(
-                          color: kMikadoYellow,
+                          color: kNetflixRed,
                           borderRadius: BorderRadius.circular(8.0),
                         ),
                         child: FittedBox(

@@ -103,7 +103,7 @@ class _HomeMoviePageState extends State<HomeMoviePage>
                 controller: _controller,
                 indicator: BoxDecoration(
                   borderRadius: BorderRadius.circular(60.0),
-                  color: kMikadoYellow,
+                  color: kNetflixRed,
                 ),
                 tabs: const [
                   Tab(child: Text('Movie')),
