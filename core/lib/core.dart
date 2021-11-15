@@ -24,8 +24,6 @@ export './src/presentation/cubit/movie/movie_popular_cubit.dart';
 export './src/presentation/cubit/movie/movie_recommendations_cubit.dart';
 export './src/presentation/cubit/movie/movie_top_rated_cubit.dart';
 
-
-
 //TV Series and Movie Pages
 export './src/presentation/pages/movie_pages/home_movie_page.dart';
 export './src/presentation/pages/movie_pages/movie_detail_page.dart';
@@ -35,8 +33,6 @@ export './src/presentation/pages/tv_pages/tv_detail_page.dart'
     hide DetailContent;
 export './src/presentation/pages/tv_pages/tv_episode_season_page.dart';
 export './src/presentation/pages/tv_pages/tv_see_more_page.dart';
-
-
 
 //Usecase
 export './src/domain/usecases/movie/get_movie_detail.dart';
@@ -58,8 +54,6 @@ export './src/domain/usecases/tv/get_watch_list_status_tv_series.dart';
 export './src/domain/usecases/tv/remove_watchlist_tv_series.dart';
 export './src/domain/usecases/tv/save_watchlist_tv_series.dart';
 
-
-
 //Repository
 export './src/domain/repositories/movie_repository.dart';
 export './src/domain/repositories/tv_repository.dart';
@@ -67,13 +61,9 @@ export './src/domain/repositories/tv_repository.dart';
 export './src/data/repositories/movie_repository_impl.dart';
 export './src/data/repositories/tv_repository_impl.dart';
 
-
-
 //Entities
 export './src/domain/entities/movie.dart';
 export './src/domain/entities/tv/tv.dart';
-
-
 
 //Datasource
 
@@ -85,13 +75,9 @@ export './src/data/datasources/movie_remote_data_source.dart';
 export './src/data/datasources/tv_local_data_source.dart';
 export './src/data/datasources/tv_remote_data_source.dart';
 
-
-
 // Reusable Widget
 export './src/presentation/widgets/movie_card_list.dart';
 export './src/presentation/widgets/tv_card_list.dart';
-
-
 
 ///network info
 export './src/common/network_info.dart';
