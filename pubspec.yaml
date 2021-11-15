@@ -53,6 +53,7 @@ dev_dependencies:
   flutter_native_splash: ^1.3.1
   integration_test:
     sdk: flutter
+  mockito: ^5.0.16
   mocktail: ^0.2.0
   test_cov_console: ^0.1.4
 
