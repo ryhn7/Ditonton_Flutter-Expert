@@ -17,7 +17,7 @@ class Shared {
       if (isTestMode) {
         bytes = utf8.encode(_certificatedString);
       } else {
-        bytes = (await rootBundle.load('assets/api_ssl_pinning.pem')).buffer.asUint8List();
+        bytes = (await rootBundle.load('assets/ssl_pinning_api.pem')).buffer.asUint8List();
       }
       context.setTrustedCertificatesBytes(bytes);
     } on TlsException catch (e) {
