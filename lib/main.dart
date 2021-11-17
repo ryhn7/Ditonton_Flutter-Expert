@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'Ditonton',
         theme: ThemeData.dark().copyWith(
           primaryColor: kRichBlack,
           scaffoldBackgroundColor: kRichBlack,
