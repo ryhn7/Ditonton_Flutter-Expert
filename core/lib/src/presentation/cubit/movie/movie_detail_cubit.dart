@@ -56,6 +56,7 @@ class MovieDetailCubit extends Cubit<MovieDetailState> {
       (failure) => emit(state.setMessageWatchlist(failure.message)),
       (value) => emit(state.setMessageWatchlist(value)),
     );
+    await getWatchlistStatus(movie.id);
   }
 
   Future<void> getWatchlistStatus(int id) async {
